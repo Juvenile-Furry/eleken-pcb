@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "torch.kicad_pro",
+    "filename": "rs_lamp.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -539,7 +539,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -667,18 +667,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "torch.kicad_sch",
-        "name": "torch",
+        "filename": "rs_lamp.kicad_sch",
+        "name": "rs_lamp",
         "uuid": "d626508b-3053-4ce9-abdf-fc345aae31e1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1",
     "variants": []
   },
   "sheets": [
     [
       "d626508b-3053-4ce9-abdf-fc345aae31e1",
-      "ルート"
+      "rs_lamp"
     ]
   ],
   "text_variables": {},
