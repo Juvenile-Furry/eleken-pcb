@@ -2469,7 +2469,7 @@
 			(uuid "651bbdbd-4895-4e7c-a059-277f89d84fc3")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "D1")
 					(unit 1)
@@ -2551,7 +2551,7 @@
 			(uuid "9da0119b-7f7f-46b9-ac09-4b5805ea74e7")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R5")
 					(unit 1)
@@ -2635,7 +2635,7 @@
 			(uuid "3263d58d-7f41-4596-81bb-1802b8a94710")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J4")
 					(unit 1)
@@ -2717,7 +2717,7 @@
 			(uuid "7b1ae200-5d00-4a94-afb2-f2e8cc2a4a84")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R3")
 					(unit 1)
@@ -2799,7 +2799,7 @@
 			(uuid "2df3ea8e-aa25-4e78-9c12-bbb9fb7938b5")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R4")
 					(unit 1)
@@ -2877,7 +2877,7 @@
 			(uuid "a6dcb290-6604-4391-ac5f-e364bd40f922")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR04")
 					(unit 1)
@@ -2959,7 +2959,7 @@
 			(uuid "1ac56ed2-04ab-4b79-9b43-e6e7ed2ffdb1")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R2")
 					(unit 1)
@@ -3041,7 +3041,7 @@
 			(uuid "7569ffc6-8b84-4995-bce5-736e54f7e834")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J2")
 					(unit 1)
@@ -3121,7 +3121,7 @@
 			(uuid "cbf73438-a5d8-4a42-9aed-16443ea539f1")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R1")
 					(unit 1)
@@ -3132,7 +3132,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 90.17 27.94 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3142,7 +3141,7 @@
 		(dnp no)
 		(uuid "910219dd-8ba6-4030-a07e-990b7eefe81d")
 		(property "Reference" "J7"
-			(at 92.964 30.226 0)
+			(at 92.964 25.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3153,7 +3152,7 @@
 			)
 		)
 		(property "Value" "INPUT3_SOC"
-			(at 91.694 26.924 0)
+			(at 91.694 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3206,7 +3205,7 @@
 			(uuid "35d2b067-f173-4499-83e6-f06d1de51ddd")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J7")
 					(unit 1)
@@ -3284,7 +3283,7 @@
 			(uuid "9e5b81cc-b684-4b32-ad4a-f2c98dc3cdf5")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR03")
 					(unit 1)
@@ -3368,7 +3367,7 @@
 			(uuid "63d55377-5831-44c3-92cd-f62232f1a230")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J1")
 					(unit 1)
@@ -3446,7 +3445,7 @@
 			(uuid "4843fea9-bcfc-46d3-afc1-7ef8f16a02fc")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR01")
 					(unit 1)
@@ -3534,7 +3533,7 @@
 			(uuid "e81d76f7-f753-46aa-99a1-5cd05dbc6bf5")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "Q1")
 					(unit 1)
@@ -3612,7 +3611,7 @@
 			(uuid "2c9d15c2-4c23-4295-b9da-d4be697c215d")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR05")
 					(unit 1)
@@ -3623,7 +3622,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 52.07 27.94 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3633,7 +3631,7 @@
 		(dnp no)
 		(uuid "c00d838a-a9cc-4545-a924-bd20ce036ddd")
 		(property "Reference" "J5"
-			(at 48.26 30.734 0)
+			(at 48.26 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3643,7 +3641,7 @@
 			)
 		)
 		(property "Value" "INPUT2_PIN"
-			(at 45.72 27.686 0)
+			(at 45.72 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3695,7 +3693,7 @@
 			(uuid "d5ea3643-5336-44a4-aaae-302c3b7e1794")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J5")
 					(unit 1)
@@ -3773,7 +3771,7 @@
 			(uuid "3edfa4ae-a689-475f-ab92-c4644fe85d57")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR02")
 					(unit 1)
@@ -3783,8 +3781,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 52.07 35.56 0)
-		(mirror y)
+		(at 52.07 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3794,7 +3791,7 @@
 		(dnp no)
 		(uuid "dce20d3f-3478-4a29-ab73-930a57902604")
 		(property "Reference" "J6"
-			(at 49.276 33.274 0)
+			(at 49.276 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3805,7 +3802,7 @@
 			)
 		)
 		(property "Value" "INPUT2_SOC"
-			(at 50.8 36.8299 0)
+			(at 50.8 34.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3858,7 +3855,7 @@
 			(uuid "c50c6ebb-cd6c-4301-8ee1-a2e694092d47")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J6")
 					(unit 1)
@@ -3936,7 +3933,7 @@
 			(uuid "3a5d27aa-adcc-42c2-963a-cb5a3762e819")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR06")
 					(unit 1)
@@ -4018,7 +4015,7 @@
 			(uuid "8849af72-2cd1-4d3e-8292-2ffa3cc89210")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J3")
 					(unit 1)
@@ -4106,7 +4103,7 @@
 			(uuid "b454dfdd-1963-4e37-9795-2f59dbbbb2b2")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "Q2")
 					(unit 1)
@@ -4116,8 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 90.17 35.56 0)
-		(mirror y)
+		(at 90.17 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4127,7 +4123,7 @@
 		(dnp no)
 		(uuid "e73270ff-e82d-45ac-9c64-c21c3f0652c9")
 		(property "Reference" "J8"
-			(at 93.98 32.766 0)
+			(at 93.98 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4137,7 +4133,7 @@
 			)
 		)
 		(property "Value" "INPUT3_PIN"
-			(at 97.282 36.322 0)
+			(at 97.282 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4189,7 +4185,7 @@
 			(uuid "3f011b50-8322-4e92-b64e-5f165601e960")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "J8")
 					(unit 1)
@@ -4268,7 +4264,7 @@
 			(uuid "1d5211d4-f806-41ea-ba52-b714eaf22655")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "TP2")
 					(unit 1)
@@ -4347,7 +4343,7 @@
 			(uuid "f28af605-a857-48f3-900c-b1a80ae9d8d8")
 		)
 		(instances
-			(project "eleken"
+			(project "rs_torch"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "TP1")
 					(unit 1)
