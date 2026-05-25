@@ -540,7 +540,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "rs_torch_gbr",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -678,7 +678,7 @@
   "sheets": [
     [
       "d626508b-3053-4ce9-abdf-fc345aae31e1",
-      "ルート"
+      "rs_torch"
     ]
   ],
   "text_variables": {},
