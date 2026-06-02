@@ -540,7 +540,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "gbr/",
+      "plot": "rs_lamp_gbr/",
       "specctra_dsn": "",
       "vrml": ""
     },

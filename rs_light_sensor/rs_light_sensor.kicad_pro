@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rs_lever.kicad_pro",
+    "filename": "rs_light_sensor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -540,7 +540,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "rs_lever_gbr",
+      "plot": "rs_light_sensor_gbr/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -667,18 +667,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "rs_lever.kicad_sch",
-        "name": "rs_lever",
+        "filename": "rs_light_sensor.kicad_sch",
+        "name": "rs_light_sensor",
         "uuid": "d626508b-3053-4ce9-abdf-fc345aae31e1"
       }
     ],
-    "used_designators": "TP1-2",
+    "used_designators": "TP1-2,Q1,R1-4,D2",
     "variants": []
   },
   "sheets": [
     [
       "d626508b-3053-4ce9-abdf-fc345aae31e1",
-      "rs_lever"
+      "rs_light_sensor"
     ]
   ],
   "text_variables": {},
