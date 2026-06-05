@@ -1319,6 +1319,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904f3d32-c2c5-4dd4-af48-4b370d96e85e")
+	)
+	(wire
+		(pts
 			(xy 59.69 60.96) (xy 63.5 60.96)
 		)
 		(stroke
@@ -1369,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 72.39 101.6)
+			(xy 68.58 101.6) (xy 71.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1438,7 @@
 		(uuid "f3267026-94f3-44f1-8617-45e13cdc1972")
 	)
 	(label "OUT"
-		(at 72.39 101.6 0)
+		(at 83.82 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1446,6 +1456,108 @@
 			(justify left bottom)
 		)
 		(uuid "8fdd39ea-fc62-4abb-a26f-18f3ed20ac4d")
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 74.93 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f49d4ed-3074-450e-a4d4-4ec6c108bd91")
+		(property "Reference" "D2"
+			(at 74.93 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 74.93 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 74.93 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 74.93 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 74.93 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 74.93 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d99a672b-298f-4bb4-9a27-65409140706c")
+		)
+		(pin "2"
+			(uuid "7f6c8035-49a8-4f12-823b-d1eadf5fb891")
+		)
+		(instances
+			(project "rs_lever"
+				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
