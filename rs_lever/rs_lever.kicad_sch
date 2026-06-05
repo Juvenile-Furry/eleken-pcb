@@ -1417,6 +1417,16 @@
 		)
 		(uuid "f1b2870d-0683-4bdc-a02d-797db2ed0e2d")
 	)
+	(wire
+		(pts
+			(xy 50.8 97.79) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3267026-94f3-44f1-8617-45e13cdc1972")
+	)
 	(label "OUT"
 		(at 72.39 101.6 0)
 		(effects
@@ -1439,6 +1449,82 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 50.8 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a83249e-c669-4e7a-a07f-624246e041c7")
+		(property "Reference" "TP3"
+			(at 40.132 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATTERY1_{-}"
+			(at 40.132 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 50.8 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24c84040-1448-41f2-820f-47a96a417954")
+		)
+		(instances
+			(project "rs_lever"
+				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 50.8 114.3 90)
 		(unit 1)
 		(body_style 1)
@@ -1458,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Value" "BATTERY_{-}"
+		(property "Value" "BATTERY2_{-}"
 			(at 40.132 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,6 +1750,82 @@
 			(project "rs_lever"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78c89efa-4feb-4317-935c-3c76365a9808")
+		(property "Reference" "TP4"
+			(at 40.132 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATTERY2_{+}"
+			(at 40.132 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 50.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec4af402-be52-42cf-b32a-40e033d7a798")
+		)
+		(instances
+			(project "rs_lever"
+				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -2037,7 +2199,7 @@
 				)
 			)
 		)
-		(property "Value" "BATTERY_{+}"
+		(property "Value" "BATTERY1_{+}"
 			(at 40.132 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
