@@ -1574,22 +1574,10 @@
 		(uuid "24da83c4-d602-4085-9153-9e250d856f6d")
 	)
 	(junction
-		(at 60.96 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c110048-e79d-4c15-bec8-3578fb46c399")
-	)
-	(junction
 		(at 96.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510b352b-c969-4d90-b20d-c04b69980167")
-	)
-	(junction
-		(at 59.69 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6104514a-b080-4657-ba3c-f26e9bf3acf5")
 	)
 	(junction
 		(at 97.79 60.96)
@@ -1602,12 +1590,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84359cfe-46d1-4815-a3ec-923687eb08ee")
-	)
-	(junction
-		(at 58.42 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a81fe9d3-d667-448f-be46-6d38924961ed")
 	)
 	(junction
 		(at 99.06 63.5)
@@ -1673,16 +1655,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4305702b-223c-4cca-9b5c-2bd89115fc93")
-	)
-	(wire
-		(pts
 			(xy 95.25 58.42) (xy 96.52 58.42)
 		)
 		(stroke
@@ -1690,26 +1662,6 @@
 			(type default)
 		)
 		(uuid "51444198-678a-43b1-9645-6bacd7aede21")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 59.69 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65884955-1fb9-4f90-822d-388907ddbd48")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6962edce-185d-4d5a-b113-ff4838a2ab38")
 	)
 	(wire
 		(pts
@@ -1763,27 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 59.69 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e34aa3a-7f86-41be-96f6-5519ad8977d6")
-	)
-	(wire
-		(pts
-			(xy 59.69 60.96) (xy 63.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f40974-6c15-4be0-baeb-9b8260472f11")
-	)
-	(wire
-		(pts
-			(xy 57.15 50.8) (xy 60.96 50.8)
+			(xy 57.15 50.8) (xy 68.58 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 59.69 53.34)
+			(xy 57.15 53.34) (xy 63.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1843,16 +1775,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 55.88) (xy 58.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd74ff70-997d-4a9c-b400-7126e2905904")
-	)
-	(wire
-		(pts
 			(xy 95.25 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -1860,16 +1782,6 @@
 			(type default)
 		)
 		(uuid "ce97d1d9-c5df-447e-8345-daf4c45271f4")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b9e67f-3360-44d0-bac7-9c4309bd98cb")
 	)
 	(wire
 		(pts
@@ -1883,26 +1795,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 63.5) (xy 68.58 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0a6f4e-ef39-43b2-8a8b-9af8d9d0b085")
-	)
-	(wire
-		(pts
-			(xy 57.15 58.42) (xy 58.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee50fac4-6d92-4bca-8e32-6ee1f4d328bd")
-	)
-	(wire
-		(pts
 			(xy 60.96 111.76) (xy 60.96 114.3)
 		)
 		(stroke
@@ -1913,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 58.42 55.88)
+			(xy 57.15 55.88) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +1864,7 @@
 		(uuid "27251d53-d555-47a7-aa38-b0b73243e33f")
 	)
 	(label "OUT"
-		(at 63.5 60.96 0)
+		(at 63.5 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2388,7 +2280,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 63.5 0)
+		(at 68.58 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2399,7 +2291,7 @@
 		(fields_autoplaced yes)
 		(uuid "578dcb9a-f1df-45f5-b464-23ff7c6e1501")
 		(property "Reference" "#PWR04"
-			(at 68.58 69.85 0)
+			(at 68.58 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,17 +2302,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 68.58 0)
+			(at 71.12 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 63.5 0)
+			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 63.5 0)
+			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,7 +2335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 63.5 0)
+			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 52.07 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2732,7 +2625,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 58.42 0)
+		(at 68.58 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2743,7 +2636,7 @@
 		(fields_autoplaced yes)
 		(uuid "9126ab18-aafb-46f2-9753-facc9cdf420a")
 		(property "Reference" "#PWR03"
-			(at 68.58 62.23 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2761,11 +2654,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 58.42 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 58.42 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +2680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 58.42 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,90 +2779,6 @@
 			(project "rs_light_sensor"
 				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 52.07 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b602193-b8d6-4b1b-87cc-3ed14d9a7a47")
-		(property "Reference" "J1"
-			(at 49.276 63.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUT_{SOC}"
-			(at 49.784 60.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 52.07 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "850fd18d-d36a-4ffa-a103-b96db0bd198d")
-		)
-		(pin "1"
-			(uuid "48efbd86-df5a-4011-9757-05fcc6627f8f")
-		)
-		(pin "3"
-			(uuid "63d55377-5831-44c3-92cd-f62232f1a230")
-		)
-		(instances
-			(project "rs_light_sensor"
-				(path "/d626508b-3053-4ce9-abdf-fc345aae31e1"
-					(reference "J1")
 					(unit 1)
 				)
 			)
